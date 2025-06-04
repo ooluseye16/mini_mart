@@ -1,0 +1,107 @@
+[
+  {
+    "id": 1,
+    "name": "Wireless Bluetooth 5.0 Headphones with Active Noise Cancellation and 40-Hour Battery",
+    "price": 59.99,
+    "image": "https://picsum.photos/id/1010/400/300",
+    "description": "- Wireless Bluetooth 5.0 connectivity\n- Active Noise Cancellation for immersive audio\n- 40-hour battery life on a single charge\n- Soft memory foam ear cups for all-day comfort\n- Foldable design with travel case included\n- Built-in mic for clear calls\n- Touch controls for playback and volume\n- Compatible with all major OS and devices\n- Lightweight frame, premium materials\n- Available in black, white, and blue"
+  },
+  {
+    "id": 2,
+    "name": "Smartwatch with AMOLED Display, GPS Tracking, and 7-Day Battery Life",
+    "price": 129.99,
+    "image": "https://picsum.photos/id/1005/400/300",
+    "description": "- High-resolution AMOLED display\n- Tracks steps, sleep, heart rate, and stress\n- Receives notifications, calls, and messages\n- IP68 water-resistant for workouts and rain\n- 7-day battery life on typical use\n- Built-in GPS and activity tracking\n- Custom watch faces available\n- Syncs with Android and iOS\n- Magnetic charging dock included\n- Sleek, lightweight aluminum build"
+  },
+  {
+    "id": 3,
+    "name": "High-Precision Gaming Mouse with 16,000 DPI Sensor and RGB Lighting",
+    "price": 29.99,
+    "image": "https://picsum.photos/id/1044/400/300",
+    "description": "- High-precision 16,000 DPI sensor\n- 6 programmable buttons for macros\n- RGB lighting with multiple effects\n- Ergonomic grip for long gaming sessions\n- Durable braided USB cable\n- Adjustable weight tuning system\n- On-board memory for profiles\n- Ultra-low latency performance\n- Smooth glide PTFE feet\n- Compatible with Windows and macOS"
+  },
+  {
+    "id": 4,
+    "name": "Portable Bluetooth Speaker with Deep Bass, Stereo Sound, and IPX5 Water Resistance",
+    "price": 45.00,
+    "image": "https://picsum.photos/id/1025/400/300",
+    "description": "- Deep bass and stereo sound output\n- Bluetooth 5.0 with 10m range\n- IPX5 water-resistant design\n- 12-hour battery for non-stop music\n- Built-in mic for hands-free calls\n- Compact and travel-ready size\n- Pair two speakers for stereo\n- USB-C fast charging support\n- AUX input and microSD support\n- LED ring indicator for status"
+  },
+  {
+    "id": 5,
+    "name": "Mechanical Keyboard with Blue Switches, Per-Key RGB Lighting, and Durable Aluminum Frame",
+    "price": 75.50,
+    "image": "https://picsum.photos/id/103/400/300",
+    "description": "- Blue switches with tactile feedback\n- Per-key RGB lighting with effects\n- Durable aluminum top plate\n- Full anti-ghosting and N-key rollover\n- USB passthrough for accessories\n- Detachable braided USB-C cable\n- Adjustable typing angles\n- Custom macros with onboard memory\n- Compatible with Windows/macOS/Linux\n- Compact tenkeyless layout"
+  },
+  {
+    "id": 6,
+    "name": "15.6-Inch Portable Full HD Monitor with USB-C & HDMI, Built-In Speakers, and Smart Cover",
+    "price": 159.99,
+    "image": "https://picsum.photos/id/102/400/300",
+    "description": "- 15.6\" Full HD IPS display\n- Ultra-slim and lightweight body\n- USB-C and HDMI connectivity\n- Works with phones, laptops, and consoles\n- Built-in stereo speakers\n- Magnetic smart cover stand included\n- Low blue light and anti-glare coating\n- Plug-and-play, no drivers required\n- Wide color gamut support\n- Great for productivity on the go"
+  },
+  {
+    "id": 7,
+    "name": "Adjustable Aluminum Laptop Stand with Ventilation and Non-Slip Rubber Pads",
+    "price": 24.99,
+    "image": "https://picsum.photos/id/1011/400/300",
+    "description": "- Adjustable height and angle\n- Durable aluminum alloy construction\n- Non-slip rubber pads for grip\n- Ventilated design for cooling\n- Supports up to 17” laptops\n- Folds flat for portability\n- Minimalist and modern aesthetic\n- Raises screen to eye level\n- Helps reduce neck strain\n- Easy to assemble and use"
+  },
+  {
+    "id": 8,
+    "name": "1080p Full HD Webcam with Autofocus, Low-Light Correction, and Noise-Reducing Microphone",
+    "price": 39.99,
+    "image": "https://picsum.photos/id/1016/400/300",
+    "description": "- Full HD 1080p resolution\n- Autofocus and low-light correction\n- Built-in noise-reducing microphone\n- 90° wide-angle field of view\n- USB plug-and-play interface\n- Works with Zoom, Teams, Skype\n- Privacy shutter cover included\n- 360° adjustable swivel mount\n- Clip fits most monitors/laptops\n- Works with Windows/macOS/Linux"
+  },
+  {
+    "id": 9,
+    "name": "20000mAh High-Capacity Power Bank with Dual USB Output and Fast 18W PD Charging",
+    "price": 35.00,
+    "image": "https://picsum.photos/id/1021/400/300",
+    "description": "- High-capacity 20,000mAh battery\n- Dual USB output + USB-C input/output\n- Fast charge supported (18W PD)\n- LED indicator for battery level\n- Sleek matte finish design\n- Charges 3 devices simultaneously\n- Compact and airplane-safe\n- Built-in surge protection\n- Compatible with all phones/tablets\n- Ideal for travel and emergencies"
+  },
+  {
+    "id": 10,
+    "name": "15W Fast Wireless Charger Pad with Qi-Certified Safety and Non-Slip Surface",
+    "price": 19.99,
+    "image": "https://picsum.photos/id/1032/400/300",
+    "description": "- 15W fast wireless charging\n- Slim and lightweight build\n- Qi-certified for safety\n- Non-slip rubber ring surface\n- Works with cases up to 5mm\n- LED status indicator\n- USB-C cable included\n- Safe for overnight use\n- Compatible with iPhone/Samsung\n- Sleek matte black finish"
+  },
+  {
+    "id": 11,
+    "name": "True Wireless Noise Cancelling Earbuds with Hybrid ANC and 32-Hour Battery Life",
+    "price": 89.99,
+    "image": "https://picsum.photos/id/1042/400/300",
+    "description": "- True wireless stereo (TWS)\n- Hybrid active noise cancellation\n- Up to 8 hours battery, 32h w/ case\n- Touch control for music/calls\n- Sweat and water resistant (IPX4)\n- USB-C fast charging support\n- Dual mic for clear calls\n- Ergonomic fit with silicone tips\n- Smart in-ear detection\n- Case supports wireless charging"
+  },
+  {
+    "id": 12,
+    "name": "5m RGB Smart Light Strip with WiFi/Bluetooth Control and Alexa/Google Assistant Compatibility",
+    "price": 22.99,
+    "image": "https://picsum.photos/id/1062/400/300",
+    "description": "- 5m RGB LED light strip\n- App-controlled via WiFi/Bluetooth\n- Works with Alexa and Google Assistant\n- Music sync mode built-in\n- Timer and scene customization\n- 16 million colors and brightness\n- Adhesive backing for easy install\n- Cuttable and extendable design\n- Energy-efficient LEDs\n- Great for gaming or ambiance lighting"
+  },
+  {
+    "id": 13,
+    "name": "7-in-1 USB-C Hub with 4K HDMI, USB 3.0, SD Card Reader, and 100W PD Charging",
+    "price": 49.99,
+    "image": "https://picsum.photos/id/1084/400/300",
+    "description": "- 7-in-1 hub: HDMI, USB, SD, PD\n- 4K HDMI output at 30Hz\n- 3 USB 3.0 ports for peripherals\n- SD/microSD card reader\n- USB-C PD charging up to 100W\n- Aluminum shell for heat dissipation\n- Plug-and-play with no drivers\n- Compatible with Mac/Windows/Linux\n- Compact travel-friendly size\n- Ideal for laptops and tablets"
+  },
+  {
+    "id": 14,
+    "name": "Ergonomic Office Chair with Adjustable Lumbar Support, Mesh Backrest, and Memory Foam Seat",
+    "price": 199.99,
+    "image": "https://picsum.photos/id/109/400/300",
+    "description": "- Adjustable lumbar support system\n- Breathable mesh backrest\n- Cushioned seat with memory foam\n- 360° swivel and tilt mechanism\n- Height and armrest adjustability\n- Smooth-rolling caster wheels\n- Durable steel frame base\n- Great for long hours of work\n- Modern design fits all setups\n- Easy to assemble with instructions"
+  },
+  {
+    "id": 15,
+    "name": "Laptop Cooling Pad with 5 High-Speed Fans, Adjustable Angles, and Quiet LED Operation",
+    "price": 27.50,
+    "image": "https://picsum.photos/id/110/400/300",
+    "description": "- 5 high-speed cooling fans\n- Adjustable height and tilt angles\n- Quiet operation with LED lights\n- USB-powered with passthrough port\n- Supports laptops up to 17”\n- Anti-slip surface and feet\n- Helps improve performance and life\n- Great for gaming and heavy usage\n- Durable plastic and metal build\n- Lightweight and easy to carry"
+  }
+]
