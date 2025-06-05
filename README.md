@@ -12,7 +12,7 @@ A simple Flutter shopping cart application demonstrating state management, persi
 | State Mgmt   | Riverpod                          |
 | Local Storage| Shared_Preferences                |
 | Architecture | MVVM (Model-View-ViewModel)       |
-| Data Source  | JSON (assets/products.json)       |
+| Data Source  | JSON (assets/data/products.json)       |
 | Image        | Network image loading             |
 
 ---
