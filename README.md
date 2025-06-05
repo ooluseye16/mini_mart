@@ -21,7 +21,7 @@ A simple Flutter shopping cart application demonstrating state management, persi
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/oolo/mini_mart.git
+   git clone https://github.com/ooluseye16/mini_mart.git
    cd mini_mart
    ```
 
