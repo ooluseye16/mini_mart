@@ -2,7 +2,6 @@ import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:mini_mart/core/theme/colors.dart';
-import 'package:mini_mart/core/theme/text_styles.dart';
 import 'package:mini_mart/core/utilities/extensions.dart';
 import 'package:mini_mart/models/product.dart';
 import 'package:mini_mart/views/screens/products/product_details.dart';
@@ -20,10 +19,7 @@ class ProductCard extends StatelessWidget {
         Navigator.pushNamed(
           context,
           ProductDetailsScreen.routeName,
-          arguments: {
-            'product': product,
-            'heroTag': herotag,
-          },
+          arguments: {'product': product, 'heroTag': herotag},
         );
       },
       child: Hero(
@@ -47,7 +43,7 @@ class ProductCard extends StatelessWidget {
               Container(
                 height: 162.h,
                 decoration: BoxDecoration(
-                  color: AppColors.lightBlue,
+                  color: AppColors.grey200,
                   image: DecorationImage(
                     image: CachedNetworkImageProvider(product.image),
                     fit: BoxFit.cover,
@@ -60,11 +56,11 @@ class ProductCard extends StatelessWidget {
                 product.name,
                 maxLines: 2,
                 overflow: TextOverflow.ellipsis,
-                style: AppTextStyles.cardTitle,
+                style: context.cardTitle,
               ),
               // Spacer(),
               4.height,
-              Text("\$${product.price}", style: AppTextStyles.cardPrice),
+              Text("\$${product.price}", style: context.cardPrice),
             ],
           ),
         ),

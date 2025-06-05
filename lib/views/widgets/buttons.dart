@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:mini_mart/core/theme/colors.dart';
-import 'package:mini_mart/core/theme/text_styles.dart';
+import 'package:mini_mart/core/utilities/extensions.dart';
 
 class AppDefaultButton extends StatelessWidget {
   const AppDefaultButton({
@@ -29,13 +29,11 @@ class AppDefaultButton extends StatelessWidget {
         child: Center(
           child: Text(
             text,
+
             style:
                 isActive
-                    ? AppTextStyles.button
-                    : AppTextStyles.withColor(
-                      AppTextStyles.button,
-                      AppColors.grey500,
-                    ),
+                    ? context.button
+                    : context.button.copyWith(color: AppColors.grey500),
           ),
         ),
       ),

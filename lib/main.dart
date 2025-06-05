@@ -1,3 +1,4 @@
+import 'package:flashy_flushbar/flashy_flushbar.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
@@ -24,6 +25,7 @@ class MyApp extends StatelessWidget {
           (context, child) => MaterialApp(
             onGenerateRoute: RouteGenerator.generateRoute,
             theme: AppTheme.lightTheme,
+            builder: FlashyFlushbarProvider.init(),
             initialRoute: Navigation.routeName,
           ),
     );

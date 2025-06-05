@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:flutter_svg/svg.dart';
 import 'package:mini_mart/core/theme/colors.dart';
-import 'package:mini_mart/core/theme/text_styles.dart';
 import 'package:mini_mart/core/utilities/extensions.dart';
 
 class TitleWidget extends StatelessWidget {
@@ -19,7 +18,7 @@ class TitleWidget extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return InkWell(
-      onTap: onTap ,
+      onTap: onTap,
       child: Container(
         decoration: BoxDecoration(
           color: AppColors.white,
@@ -32,9 +31,9 @@ class TitleWidget extends StatelessWidget {
           children: [
             if (isBackButtonVisible)
               SvgPicture.asset('left'.toSvgIcon, width: 24.h),
-      
+
             8.width,
-            Text(label, style: AppTextStyles.title),
+            Text(label, style: context.title),
           ],
         ),
       ),

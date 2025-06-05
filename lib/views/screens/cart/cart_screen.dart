@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:mini_mart/core/theme/colors.dart';
-import 'package:mini_mart/core/theme/text_styles.dart';
 import 'package:mini_mart/core/utilities/extensions.dart';
 import 'package:mini_mart/viewmodels/cart_provider.dart';
 import 'package:mini_mart/views/screens/cart/widgets/item_card.dart';
@@ -47,10 +46,7 @@ class CartScreen extends ConsumerWidget {
                               (index) => CartItemCard(item: cartList[index]),
                             ),
                           ),
-                          Text(
-                            "Order Info",
-                            style: AppTextStyles.cartOrderInfoTitle,
-                          ),
+                          Text("Order Info", style: context.cartOrderInfoTitle),
 
                           CartInfoTile(
                             label: "Subtotal",
@@ -63,10 +59,10 @@ class CartScreen extends ConsumerWidget {
                           Row(
                             mainAxisAlignment: MainAxisAlignment.spaceBetween,
                             children: [
-                              Text("Total", style: AppTextStyles.cartOrderInfo),
+                              Text("Total", style: context.cartOrderInfo),
                               Text(
                                 total.toCurrencyString(),
-                                style: AppTextStyles.cartOrderInfoTitle,
+                                style: context.cartOrderInfoTitle,
                               ),
                             ],
                           ),
@@ -134,8 +130,8 @@ class CartInfoTile extends StatelessWidget {
     return Row(
       mainAxisAlignment: MainAxisAlignment.spaceBetween,
       children: [
-        Text(label, style: AppTextStyles.cartOrderInfo),
-        Text(value, style: AppTextStyles.cartOrderInfo),
+        Text(label, style: context.cartOrderInfo),
+        Text(value, style: context.cartOrderInfo),
       ],
     );
   }

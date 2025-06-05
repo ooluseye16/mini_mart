@@ -36,10 +36,10 @@ dependencies:
   cupertino_icons: ^1.0.8
   flutter_svg: ^2.1.0
   flutter_screenutil: ^5.9.3
-  another_flushbar: ^1.12.30
   flutter_riverpod: ^2.6.1
   cached_network_image: ^3.4.1
   shared_preferences: ^2.5.3
+  flashy_flushbar: ^1.4.0
 
 dev_dependencies:
   flutter_test:
@@ -97,7 +97,7 @@ flutter:
           weight: 200
         - asset: assets/fonts/IBMPlexSans-Thin.ttf
           weight: 100
-          
+
     - family: IBMPlexMono
       fonts:
         # - asset: assets/fonts/IBMPlexMono-Regular.ttf
@@ -115,7 +115,7 @@ flutter:
         #   weight: 200
         # - asset: assets/fonts/IBMPlexMono-Thin.ttf
         #   weight: 100
-          
+
   #   - family: Trajan Pro
   #     fonts:
   #       - asset: fonts/TrajanPro.ttf

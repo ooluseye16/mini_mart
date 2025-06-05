@@ -4,7 +4,6 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:mini_mart/core/theme/colors.dart';
-import 'package:mini_mart/core/theme/text_styles.dart';
 import 'package:mini_mart/core/utilities/extensions.dart';
 import 'package:mini_mart/models/cart_item.dart';
 import 'package:mini_mart/viewmodels/cart_provider.dart';
@@ -87,16 +86,16 @@ class _CartItemCardState extends ConsumerState<CartItemCard> {
                   widget.item.product.name,
                   maxLines: 2,
                   overflow: TextOverflow.ellipsis,
-                  style: AppTextStyles.cartItemTitle,
+                  style: context.cartItemTitle,
                 ),
 
                 Text(
                   "\$${widget.item.product.price}",
-                  style: AppTextStyles.cartItemPrice,
+                  style: context.cartItemPrice,
                 ),
                 Text(
                   "In Stock",
-                  style: AppTextStyles.cartItemTitle.copyWith(
+                  style: context.cartItemTitle.copyWith(
                     color: AppColors.success,
                   ),
                 ),
@@ -111,7 +110,7 @@ class _CartItemCardState extends ConsumerState<CartItemCard> {
                       },
                     ),
                     16.width,
-                    Text("$quantity", style: AppTextStyles.cartItemTitle),
+                    Text("$quantity", style: context.cartItemTitle),
                     16.width,
                     CartIconButton(
                       color: AppColors.white,

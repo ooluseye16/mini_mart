@@ -68,7 +68,7 @@ lib
 │   ├── theme
 │   │   ├── app_theme.dart
 │   │   ├── colors.dart
-│   │   └── text_styles.dart
+│   │   └── text_theme.dart
 │   └── utilities
 │       └── extensions.dart
 ├── main.dart
